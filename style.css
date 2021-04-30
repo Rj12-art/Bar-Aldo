@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: swap;
+  color:#777777;
+}
+#inx{
+  height: 600px;
+  width: 100%;
+  background: url("baldo.jpg") no-repeat center center;
+  background-size: cover;
+ position: relative;
+
+}
+#cover {
+  height: 60px;
+  width: auto;
+  padding-top: 250px;
+  padding-left: 300px;
+  
+}
+#cover > h2{
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-style: italic;
+  
+  color: antiquewhite;
+}
+#outer-bar{
+  height: 600px;
+  width: 100%;
+  overflow:hidden;
+}
+
+h2{
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+#logo{
+  height: 60px;
+  width: 27%;
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+  background: url("logo.jpg") no-repeat;
+  background-size: cover;
+background-color:rgb(43, 18, 18) ;
+}
+
+
+#menu{
+  height: 70px;
+  width: 100%;
+  background-color: rgb(43, 18, 18);
+  border-radius: 1px;
+}
+#menu ul{
+  text-align: center;
+  padding-top: 5px;
+ 
+}
+#menu ul li{
+  font-size: 25px;
+  display: inline-block;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+#menu ul li a{
+  text-decoration: none;
+ color: antiquewhite;
+}
+#beve{
+  height: 50px;
+  width: 100%;
+}
+#beve{
+  font-size: 30px;
+  font-weight: 40px;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(56, 47, 47);
+  text-decoration: underline;
+}
+
+#outer-int{
+  width: 600px;
+  width: 100%;
+}
+
+#colazione{
+  height: 500px;
+  width: 100%;
+  background: url("brkfst.jpg") no-repeat;
+  background-size: cover;
+  background-color: rgb(0, 0, 0, .6);
+  background-attachment: fixed;
+}
+
+#kafe{
+  padding-top: 35px;
+  width: 33%;
+  float: left;
+}
+#te{
+  padding-top: 35px;
+  width: 33%;
+  float: right;
+}
+#cocco{
+  padding-top: 35px;
+  width: 33%;
+  margin: 0 auto;
+}
+h3{
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  color: antiquewhite;
+}
+#contacts{
+  font-size: 30px;
+  font-weight: 40px;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(56, 47, 47);
+  text-decoration: underline;
+ 
+
+}
+#conts{
+  font-size: 30px;
+  font-weight: 40px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+  text-decoration: underline;
+}
+#container{
+  height:300px;
+  width: 100%;
+  background-color: #4c4620;
+}
+#hrs{
+  padding-top: 35px;
+  width: 33%;
+  float: left;
+
+}
+#add{
+  padding-top: 35px;
+  width: 33%;
+  float: right;
+
+}
+#intouch{
+  padding-top: 35px;
+  width: 33%;
+  margin: 0 auto;
+
+}
+
+#hrs, #add, #intouch h2{
+  font-size: 25px;
+  color:#fff;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+#maps{
+  height: 500px;
+  width: 100%;
+  align-items: center;
+  }
+  #maps h2{
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 25px;
+    color: rgb(56, 47, 47);
+    letter-spacing: 1px;
+    
+  }
