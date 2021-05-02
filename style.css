@@ -48,7 +48,7 @@ h2{
   float: left;
   margin-top: 25px;
   margin-left: 10px;
-  background: url("logo.jpg") no-repeat;
+  background: url("assets/images/logo.jpg") no-repeat;
   background-size: cover;
 background-color:rgb(43, 18, 18) ;
 }
@@ -97,7 +97,7 @@ background-color:rgb(43, 18, 18) ;
 #colazione{
   height: 500px;
   width: 100%;
-  background: url("brkfst.jpg") no-repeat;
+  background: url("assets/images/brkfst.jpg") no-repeat;
   background-size: cover;
   background-color: rgb(0, 0, 0, .6);
   background-attachment: fixed;
