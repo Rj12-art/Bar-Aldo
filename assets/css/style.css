@@ -12,7 +12,7 @@ body {
 #inx{
   height: 600px;
   width: 100%;
-  background: url("/assets/images/baldo.jpg") no-repeat center center;
+  background: url("/assets/css/") no-repeat center center;
   background-size: cover;
  position: relative;
 
