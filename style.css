@@ -69,7 +69,8 @@ background-color:rgb(43, 18, 18) ;
   font-size: 20px;
   display: inline-block;
   padding: 10px;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 #menu ul li a{
   text-decoration: none;
@@ -90,11 +91,23 @@ background-color:rgb(43, 18, 18) ;
   text-decoration: underline;
 }
 
-#about-int{
+#about-container{
   width: 600px;
   width: 100%;
+  position: relative;
+  
+}
+#text{
+  position: absolute;
+  padding-top: 40px;
+  right: 50%;
 }
 
+#image{
+  position: absolute;
+  padding-top: 35px;
+  left: 55%;
+}
 
 
 #kafe{
