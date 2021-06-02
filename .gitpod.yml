@@ -1,0 +1,3 @@
+tasks:
+  - init: R J
+    command: "'npm start'"
