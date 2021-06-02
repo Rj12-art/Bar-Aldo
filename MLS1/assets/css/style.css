@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: antiquewhite;
+
+}
+
+#outer-bar {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#background-image {
+  height: 600px;
+  width: 100%;
+  background: url("/assets/images/baldo.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+
+}
+
+#logo {
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+  /* height: 100%;
+  width: 27%;
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+  background: url("/assets/images/logo.jpg") no-repeat;
+  background-size: cover;
+  background-color: rgb(43, 18, 18); */
+}
+
+#cover {
+  height: 60px;
+  width: auto;
+  padding-top: 250px;
+  padding-left: 300px;
+
+}
+
+#cover>h2 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-style: italic;
+
+  color: antiquewhite;
+}
+
+
+h2 {
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+
+
+#menu {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(43, 18, 18);
+  border-radius: 1px;
+}
+
+#menu ul {
+  text-align: center;
+  padding-top: 3px;
+
+}
+
+#menu ul li {
+  font-size: 20px;
+  display: inline-block;
+  padding: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+
+}
+
+#menu a:hover {
+  border-bottom: 2px solid #777777;
+}
+
+.active {
+  border-bottom: 1px solid #777777;
+}
+
+/*style for arrow icon*/
+
+i {
+  color: aliceblue;
+  float: right;
+}
+
+#about-int {
+  height: auto;
+  width: 100%;
+}
+
+#about-text {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 15px;
+  color: rgb(56, 47, 47);
+  text-decoration: underline;
+
+}
+
+.grid-ish {
+  display: flex;
+}
+
+.grid-ish>* {
+  flex-basis: 100%;
+  background-color: #648666;
+}
+
+.genral_img {
+  border-radius: 50%;
+  border: 2px inset black;
+}
+
+.image {
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+.text p {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: white;
+  align-items: center;
+  padding-top: 25px;
+  padding-right: 40px;
+}
+
+#service-container {
+  width: 100%;
+}
+
+#text-service {
+  width: 600px;
+  height: 30px;
+}
+
+#service-text h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: antiquewhite;
+  background-color: rgb(43, 18, 18);
+
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 15px;
+  color: black;
+  text-decoration: underline;
+}
+
+.even-columns {
+  display: flex;
+
+}
+
+.even-columns .serv {
+  flex-basis: 100%;
+  align-items: center;
+  margin: 1%;
+}
+
+#events-container {
+  width: 100%;
+}
+
+#events-text {
+  width: 100%;
+}
+
+#events-text {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 15px;
+  color: rgb(56, 47, 47);
+  text-decoration: underline;
+}
+
+.even-columns {
+  display: flex;
+}
+
+.even-columns {
+  flex-basis: 100%;
+  align-items: center;
+  margin: 3%;
+}
+
+#contact-text {
+  width: auto;
+  height: 30px;
+}
+
+#contact-text h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: antiquewhite;
+  background-color: rgb(43, 18, 18);
+}
+
+#contact-container {
+  width: 100%;
+
+
+}
+
+.even-columns {
+  display: flex;
+}
+
+.even-columns>* {
+  flex-basis: 100%;
+  gap: 2em;
+}
+
+.openning-hrs {
+  padding-bottom: 80px;
+}
+
+.openning-hrs h3 {
+  padding-bottom: 20px;
+}
+
+.openning-hrs table {
+  font-size: larger;
+  padding: 10px;
+}
+
+input {
+  border: 2px outset black;
+}
+
+textarea {
+  border: 2px outset black;
+
+}
+
+.via h5 {
+  font-size: 20px;
+}
+
+#foot-int {
+  width: auto;
+  height: 100%;
+  background: rgba(73, 45, 26, 0.627);
+
+
+}
+
+#social-links {
+  width: 100%;
+  height: 100%;
+}
+
+#social-links ul {
+  text-align: center;
+  padding-top: 3px;
+}
+
+ul li {
+  font-size: 30px;
+  display: inline-block;
+  padding: 50px;
+}
+
+ul li i {
+  color: aliceblue;
+}
+
+
+
+@media screen and (max-width: 499px) {
+  #background-image {
+    width: 100%;
+
+  }
+
+  #logo {
+    height: 20px;
+    width: 30%;
+  }
+
+  #cover {
+    padding-left: 50px;
+    padding-bottom: 90px;
+  }
+
+  #cover h2 {
+    font-size: 25px;
+  }
+
+  #menu ul li {
+    font-size: small;
+    padding: 5px;
+
+  }
+
+  .grid-ish {
+    display: grid;
+  }
+
+  .text {
+    letter-spacing: 0.02rem;
+    font-size: medium;
+  }
+
+  #service-text {
+    width: 100%;
+  }
+
+  .even-columns {
+    display: grid;
+  }
+
+  #social-links ul {
+    width: 100%;
+    height: 100px;
+  }
+
+  ul li {
+    font-size: 25px;
+    display: inline-block;
+    padding: 20px;
+  }
+}
