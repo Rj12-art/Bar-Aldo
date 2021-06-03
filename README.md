@@ -6,38 +6,38 @@ Welcome to my first project. This project is a website based on a local coffee s
 A bar is considered a place to hang out with friends and family having coffee or a snack together, most people have breakfast at the bar on weekends in Italy.
 This website shows you how much you can find in a bar in Italy .
 
-A live website can be found [here](https://rj12-art.github.io/Bar-Aldo/).
+A live website can be found [here](https://rj12-art.github.io/MLS1/).
 
 ![website preview](assets/images/responsive_screenshot.png)
 
 # Table of Contents
   * [Bar Aldo. Coffee, Snacks And Ice-cream Shop](#Bar-aldo)
-  * [UX](#ux)
+  ## 1. [UX](#ux)
     * [Project Research](#project-research)
         + [Research Analysis](#research-analysis)
     * [Project Goals](#project-goals)
     * [User expectations](#user-expectations)
     * [Wireframes](#wireframes)
-  * [Design](#design)
+  ## 2. [Design](#design)
     * [Colour Scheme](#colour-scheme)
     * [Favicon](#favicon)
     * [Typography](#typography)
     * [Imagery](#imagery)
-  * [Features](#features)
+  ## 3. [Features](#features)
     * [Existing Features](#existing-features)
     * [Features to be Implemented in Future](#features-to-be-implemented-in-future)
-  * [Technologies Used](#technologies-used)
+  ## 4. [Technologies Used](#technologies-used)
     * [Languages](#languages)
     * [Frameworks & Libraries](#frameworks---libraries)
-  * [Testing](#testing)
+  ## 5. [Testing](#testing)
     * [User Stories Testing](#user-stories-testing)
     * [Additional Testing](#additional-testing)
         + [Ongoing Bugs](#ongoing-bugs)
-  * [Deployment](#deployment)
+  ## 6. [Deployment](#deployment)
     * [GitHub Pages](#github-pages)
     * [Forking the Published GitHub Repository](#forking-the-published-github-repository)
     * [Cloning the Published GitHub Repository](#cloning-the-published-github-repository)
-  * [Credits](#credits)
+  ## 7. [Credits](#credits)
     * [Imagery](#imagery-1)
     * [Code](#code)
     * [Acknowledgements](#acknowledgements)
@@ -46,16 +46,18 @@ A live website can be found [here](https://rj12-art.github.io/Bar-Aldo/).
 # 1. UX
   [Go to the top](#table-of-contents)
 
-![Am I Responsive image of how the landing page looks across different browser sizes](assets/images/am-i-responsive.png)
+![Am I Responsive image of how the landing page looks across different browser sizes](https://rj12-art.github.io/MLS1/)
+
+### i project research
 
 As a person who enjoys going out for a drink on friday evenings and over the weekends. I have always tried visiting as many coffee shops as I can, Just to pick one that can be my favourite depending on the services,events and the taste of what they serve.
 This project will showcase the services and events that Bar Aldo is proven a one of a kind in the whole village.
 
-### Project Goals
+### ii Project Goals
 
 The main goal of this website is to show-case the products this coffee shop makes and with intention of attracting more clients. I want to demonstrate the target audience why  bar Aldo is a place to go for an occassion.
 
-### User Expectaionts:
+### iii User Expectaionts:
  * First Time Visitor expectations
     - As a First Time Visitor, I want to learn about the history of this Bar and understand what products the offer the clients.
 
@@ -78,14 +80,13 @@ The main goal of this website is to show-case the products this coffee shop make
 - The website is responsive on all devices this includes mobile, tablet and desktop.
 - To have the ability to contact the creator of the website.
 
-## Wireframes
-* [Home](link)
-    * [About Us](link)
-    * [Services](link)
-    * [Eevents](link)
-    * [Contact](link)
+### iv Wireframes
+* [Desktop Screen](/assets/images/wirefram desktop view .png)
+    * [Phone Screen](/assets/images/Wireframe phone screen.png)
+
+  ## 5. Design
 <a name="structure"></a>
-## 1.2. Structure
+## i Structure
   [Go to the top](#table-of-contents)
 
 It is really important to include responsive design in this project as many users are using different devices (mobile, tablet, laptop/PC). This gives the user the best experience on their device.
@@ -95,8 +96,6 @@ It is really important to include responsive design in this project as many user
  - Footer at the bottom of the page that links to the social media websites.
  - All elements will be consistent including font size, font family, colour scheme.
  
-  ## 5. Design
-
   ###  Colour scheme
 Since the website is displaying edible products, I had to be critical in color mixture [here](https://www.color-hex.com/color-wheel/).
 
@@ -107,7 +106,7 @@ I decided to use Roboto as my font of choice with sans serf as my backup font fo
 I used fontawesome to import icons I could use on the sections [fontawesome](https://fontawesome.com/)
 
 <a name="features"></a>
-# 2. Features
+# 3. Features
   [Go to the top](#table-of-contents)
 
 
@@ -234,10 +233,13 @@ I used GitHub pages to deploy my final project. To do this I had to:
 11. This will now generate a link with your website live.
 
 <a name="known-bugs"></a>
-# 8. Known Bugs
+## . Known Bugs
   [Go to the top](#table-of-contents)
 
- The background image at the top of the website wasn't loading so it was a heck of a strugle
+ The background image at the top of the website wasn't loading so it was a heck of a strugle.
+ The repository needed to be adjusted in github, a folder that existed as a folder for all the files so I had to backup the files and delete the existing repository then restructured a new repo by uploading files and saving on the appropriate folder.
+ CSS wasn't responding on some point so I had to delete the folders containing it and open new ones and update the link path on the index file.
+ 
 
 <a name="credits"></a>
 # 9. Credits
