@@ -53,7 +53,7 @@ A live website can be found [here](https://rj12-art.github.io/MLS1/).
 As a person who enjoys going out for a drink on friday evenings and over the weekends. I have always tried visiting as many coffee shops as I can, Just to pick one that can be my favourite depending on the services,events and the taste of what they serve.
 This project will showcase the services and events that Bar Aldo is proven a one of a kind in the whole village.
 
-### ii Project Goals
+### ii project Goals
 
 The main goal of this website is to show-case the products this coffee shop makes and with intention of attracting more clients. I want to demonstrate the target audience why  bar Aldo is a place to go for an occassion.
 
@@ -81,8 +81,8 @@ The main goal of this website is to show-case the products this coffee shop make
 - To have the ability to contact the creator of the website.
 
 ### iv Wireframes
-* [Desktop Screen](/assets/images/wirefram desktop view .png)
-    * [Phone Screen](/assets/images/Wireframe phone screen.png)
+* [Desktop Screen](/assets/images/wireframdesktopview.png)
+    * [Phone Screen](/assets/images/Wireframephonescreen.png)
 
   ## 5. Design
 <a name="structure"></a>
@@ -196,8 +196,8 @@ Please find below my testing process for all pages via mobile and web:
 ### All pages:
   - Navigation Bar:
     - Home - When selecting "home", the browser redirects me to the home page. The text in the navigation bar also stays highlighted in red. It worked as expected.
-    - About Us section - When selecting "Anout Us", the browser redirects me to the About Us section. The text in the navigation bar also stays highlighted in red. It worked as expected.
-    - Services section - When selecting "services", the browser redirects me to the services sectionwhich has an arrow indicating to go down and once clicked it redirects a user to the evnts section which is not linked on a navbar as an item. The text in the navigation bar also stays highlighted in red. It worked as expected.
+    - About Us section - When selecting "About Us", the browser redirects me to the About Us section. The text in the navigation bar also stays highlighted in red. It worked as expected.
+    - Services section - When selecting "services", the browser redirects me to the services section which has an arrow indicating to go down and once clicked it redirects a user to the evnets section which is not linked on a navbar as an item. The text in the navigation bar also stays highlighted in red. It worked as expected.
     - Contact - When selecting "contact", the browser redirects me to the contact section which also has an arrow but indicates to go up and when clicked it redirects a user to the about us section. 
 
     - Text:
@@ -236,9 +236,16 @@ I used GitHub pages to deploy my final project. To do this I had to:
 ## . Known Bugs
   [Go to the top](#table-of-contents)
 
- The background image at the top of the website wasn't loading so it was a heck of a strugle.
- The repository needed to be adjusted in github, a folder that existed as a folder for all the files so I had to backup the files and delete the existing repository then restructured a new repo by uploading files and saving on the appropriate folder.
- CSS wasn't responding on some point so I had to delete the folders containing it and open new ones and update the link path on the index file.
+* Background-Image
+ - The background image at the top of the website wasn't loading so it was a heck of a strugle.
+
+* Repository
+ - The repository needed to be adjusted in github. 
+ - The files were saved in a folder that existed as a main folder to all files and that was interfering with the website to load up the files from the source.
+ -  I had to backup the files and delete the existing repository then restructured a new repo by uploading files and saving on  the appropriate folder.
+
+* CSS
+ -CSS wasn't responding on some point so I had to delete the folders containing it and open new ones and update the link path on the index file.
  
 
 <a name="credits"></a>
