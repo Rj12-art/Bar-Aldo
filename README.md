@@ -8,7 +8,7 @@ This website shows you how much you can find in a bar in Italy .
 
 A live website can be found [here](https://rj12-art.github.io/MLS1/).
 
-![website preview](assets/images/responsive_screenshot.png)
+![website preview](assets/images/am-i-responsive.png)
 
 # Table of Contents
   * [Bar Aldo. Coffee, Snacks And Ice-cream Shop](#Bar-aldo)
@@ -81,8 +81,9 @@ The main goal of this website is to show-case the products this coffee shop make
 - To have the ability to contact the creator of the website.
 
 ### iv Wireframes
-* [Desktop Screen](/assets/images/wireframdesktopview.png)
-    * [Phone Screen](/assets/images/Wireframephonescreen.png)
+* ![image](/assets/wireframes/wirefram-desktop-view.png)
+
+* ![image](/assets/wireframes/phone-screen.png)
 
   ## 5. Design
 <a name="structure"></a>
