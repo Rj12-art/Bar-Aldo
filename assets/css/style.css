@@ -199,6 +199,90 @@ h3 {
   text-decoration: underline;
 }
 
+
+#reviews{
+background-color: rgb(195, 203, 210);
+}
+
+.review_bar {
+  width: auto;
+  height: 25px;
+  margin-bottom: 5%;
+}
+
+#review_bar{
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 2.5px;
+  text-align: center;
+  padding: 15px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: antiquewhite;
+  background-color: rgb(43, 18, 18);
+
+}
+
+.review_container1{
+  width: auto;
+  height: 100%;
+  padding-bottom: 2%;
+}
+.review_image1{
+ width: auto;
+ height: 100%;
+ padding-left: 30px;
+
+}
+
+.review_image1_1{
+  width: 21%;
+  height: 40px;
+  float: left;
+  border-radius: 20%;
+  border: 1px solid black;
+}
+
+.review_text1{
+  width: 33%;
+  height: 30px;
+  float: right;
+  padding-right: 80px;
+}
+
+.review_container2{
+  width: auto;
+  height: 100%;
+  padding-bottom: 2%;
+}
+
+.review_image2{
+  width: auto;
+  height: 100%;
+  padding-bottom: 150px;
+  padding-left: 30px;
+  
+ }
+
+.review_image2_2{
+  width: 21%;
+  height: 50px;
+  float: left;
+  padding-left: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+ 
+ }
+
+ .review_text2{
+  width: 33%;
+  height: 40px;
+  float: right;
+  padding-right: 60px;
+}
+
+
+
 .even-columns {
   display: flex;
 }
