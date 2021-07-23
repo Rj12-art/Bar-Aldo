@@ -447,13 +447,13 @@ ul li i {
     height: 100px;
     width: 100px;
     float: left;
-    margin: 0;
+    margin-top: 35%;
   }
 
 
 
   .even-columns .review_image {
-    display: -ms-inline-grid;}
+    display: grid;}
 
 
 
