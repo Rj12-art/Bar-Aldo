@@ -118,7 +118,7 @@ flex-basis: 100%;}
 
 .text {
   margin-left: 9%;
-  margin-top: 6%;
+  margin-top: 10%;
 }
 
 .text p {
@@ -203,7 +203,7 @@ h3 {
 #reviews{
   width: 100%;
   height: 600px;
-background-color: rgb(195, 203, 210);
+background-color: rgb(207, 211, 214);
 }
 
 .review_bar {
@@ -228,23 +228,34 @@ background-color: rgb(195, 203, 210);
 .review_container{
   width: 100%;
   height: 600px;
-  padding-bottom: 25%; }
+   }
 
-.image1{
-  padding-top: 40px;
-  width: 35%;
-  float: left;
-padding-left: 30px;}
+
+
+   .image1{
+    display: inline-block;
+    }
+    .span1{
+      float:left;
+    width: 40%;
+    }
+  
+
+
 
 .image2{
-  padding-top: 40px;
-  width: 35%;
-  float: right;}
+  display: inline-block;
+  }
+  .span2{
+    float:left;
+  width: 40%;
+  }
 
 .review_image{
   border-radius: 20%;
   border: 2px inset black;
-  margin-left: 20%;
+  margin-left: 10%;
+  margin-top: 20%;
   }
 
 .review_name {
@@ -253,9 +264,10 @@ padding-left: 30px;}
   font-size: larger;
 }  
 .review_text{
-  padding-top: 35px;
+  padding-top: 18%;
   font-size: 20px;
-  letter-spacing: 0.5px;}
+  letter-spacing: 0.5px;
+}
  
 /*---- style for contact's section ----*/  
 
@@ -440,14 +452,8 @@ ul li i {
 
 
 
-  /*.even-columns .review_image {
-    display: grid;
-  }
-.review_text{
-  letter-spacing: 0.5px;
-  text-align: center;
-  
-}*/
+  .even-columns .review_image {
+    display: -ms-inline-grid;}
 
 
 
