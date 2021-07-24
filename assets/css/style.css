@@ -91,7 +91,7 @@ i {
 /*---- About section styling ----*/
 #about_container {
   height: 600px;
-  width: auto;
+  width:100%;
   background-color: #648666;
 
 }
@@ -113,12 +113,12 @@ flex-basis: 100%;}
 
 .image img{
   margin-left: 10%;
-  margin-top: 20%;
+  margin-top: 21%;
 }
 
 .text {
   margin-left: 9%;
-  margin-top: 10%;
+  margin-top: 12%;
 }
 
 .text p {
@@ -170,6 +170,7 @@ h3 {
 /*---- style for service and events elements --*/
 .even-columns {
   display: flex;
+  
 
 }
 
@@ -258,8 +259,8 @@ background-color: rgb(207, 211, 214);
   margin-top: 20%;
   }
 
-.review_name {
-  padding-top: 10px;
+.review_name p{
+  padding-top: 30px;
   padding-left: 20%;
   font-size: larger;
 }  
@@ -369,7 +370,18 @@ ul li i {
   color: aliceblue;
 }
 
+.copy_right {
+  font-size: large;
+  margin-left: 25%;
+  color: aliceblue;
+}
 
+#mail {
+  font-weight: bold;
+  font-size: large;
+  padding-right: 45%;
+  color: aliceblue;
+}
 
 @media screen and (max-width: 499px) {
   #background-image {
@@ -403,11 +415,14 @@ ul li i {
   }
   .grid-content {
     display: grid;
-    flex-basis: 100%;
+    
   }
-  
-  .text p{
-    padding-bottom: 40px;
+
+
+  .text {
+    padding-bottom: 20%;
+    margin-left: 2%;
+    margin-top: 6%;
   }
   .text p{
     letter-spacing: 0.5px;
@@ -443,20 +458,22 @@ ul li i {
     width: 100%;
     height: 100%;
   }
-  .review_image{
+
+  .review_name{
+    padding-left: 20px;
+  }
+
+  .review_image{ /* --- resizing the review images to fit the section's content -----*/
     height: 100px;
     width: 100px;
     float: left;
-    margin-top: 35%;
+    margin-top: 40%;
   }
-
-
-
-  .even-columns .review_image {
-    display: grid;}
-
-
-
+  .review_text {
+    padding-top: 18%;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
 /*Overall styling for the service and events images*/
 .genral_img {
   margin-left: 20%;
@@ -502,3 +519,11 @@ form {
     padding: 20px;
   }
 }
+
+
+.copy_right {
+  font-size: large;
+  color: aliceblue;
+  padding-bottom: 40px;
+}
+
