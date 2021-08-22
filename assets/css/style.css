@@ -54,10 +54,11 @@ body {
   
 }
 
+
 #menu ul {
   text-align: center;
   padding-top: 3px;
-  position: sticky;
+  
 }
 
 #menu ul li {
@@ -81,7 +82,40 @@ body {
 .active {
   border-bottom: 1px solid #777777;
 }
+/*styling the navbar for the service page*/
+#navbar ul {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(43, 18, 18);
+  border-radius: 1px;
+  
+}
+#navbar ul {
+  text-align: center;
+  padding-top: 3px;
+  position: fixed;
+  top: 0;
+}
+#navbar ul li {
+  font-size: 20px;
+  display: inline-block;
+  padding: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: antiquewhite;
 
+}
+
+#navbar a:hover {
+  border-bottom: 2px solid #777777;
+}
+
+.active {
+  border-bottom: 1px solid #777777;
+}
 /*style for arrow icon*/
 
 i {
