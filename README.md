@@ -119,19 +119,24 @@ I used fontawesome to import icons I could use on the sections [fontawesome](htt
 ### Home section:
 - Main image - a large image that shows what the website is about.
 -  Bar-logo - These image adds a visual to UI and improving UX as it's not just text on the page.
+![home page web preview](assets/responsive/homewebsec.png)
 
 ### About-Us section:
 -About-Us, A little introduction about the coffee shop.
+![about section web preview](assets/responsive/aboutwebsec.png)
 
 ### Services section:
-- Overall Services - a row of boxed column with different kinds of services offered by the bar that.
-- service - this element shows what kind of services the bar offers and how they are prepared. This section tells you which service you might be intersted on.
--
+- service - this element shows what kind of services the bar offers.
+![service section web preview](assets/responsive/servicewebsec.png)
 ### Events section:
-this element shows what kind of events the bar hosts and their appropriate dates and time. This section tells you which event you might be intersted on.
-
+This element shows what kind of events the bar hosts and their appropriate dates and time.
+![events section web preview](assets/responsive/eventswebsec.png)
+# Events mobile preview
+![evetnts section mobile preview](assets/responsive/eventmobisec.png)
 ### Contact section:
-- Contact form - this gives the user the ability to message me for any issues they are having with the site, any suggestions of improvement and to give their opinions on any matter that could be of use.
+- Contact form - this gives the user the ability to message me for any issues they are having with the site, any suggestions of improvement and to give their opinions on any matter that could be of use. ![contact section web preview](assets/responsive/contactsecweb.png)
+# contact mobile view
+![contact section web preview](assets/responsive/contactsectmobile.png)
 
 ### Features to be implemented in the future
  -Linked pages with alert texts.
