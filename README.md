@@ -31,7 +31,7 @@ A live website can be found [here](https://rj12-art.github.io/MLS1/).
     * [Frameworks & Libraries](#frameworks---libraries)
   ## 5. [Testing](#testing)
     * [User Stories Testing](#user-stories-testing)
-    * [Additional Testing](#additional-testing)
+    * [Manual Testing](#additional-testing)
         + [Ongoing Bugs](#ongoing-bugs)
   ## 6. [Deployment](#deployment)
     * [GitHub Pages](#github-pages)
@@ -182,24 +182,15 @@ I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for a
 
 ## Manual Testing
 
-I have tested my site on Safari and google chrome on multiple devices.
-I also used [JS Fiddle](https://jsfiddle.net/) as a playground to test all of my code before staging and committing any changes.
+I have tested my site on firefox and google chrome on multiple devices.
+I also used [Lighthouse](https://lighthouse.net/) as a playground to test all of my code before staging and committing any changes.
 
 These include:
   - iPhone X
   - iPhone XS Max
   - iPad Pro
   - ipad
-  - laptop
-
-Please find below my testing process for all pages via mobile and web:
-
-### All pages:
-  - Navigation Bar:
-    - Home - When selecting "home", the browser redirects me to the home page. The text in the navigation bar also stays highlighted in red. It worked as expected.
-    - About Us section - When selecting "About Us", the browser redirects me to the About Us section. The text in the navigation bar also stays highlighted in red. It worked as expected.
-    - Services section - When selecting "services", the browser redirects me to the services section which has an arrow indicating to go down and once clicked it redirects a user to the evnets section which is not linked on a navbar as an item. The text in the navigation bar also stays highlighted in red. It worked as expected.
-    - Contact - When selecting "contact", the browser redirects me to the contact section which also has an arrow but indicates to go up and when clicked it redirects a user to the about us section. 
+  - laptop 
 
     - Text:
       - I checked that all text is in the correct and consistent size and font. I also checked that there were no typos.
