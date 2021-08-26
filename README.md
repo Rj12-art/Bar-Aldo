@@ -135,7 +135,7 @@ This element shows what kind of events the bar hosts and their appropriate dates
 ![evetnts section mobile preview](assets/responsive/eventmobisec.png)
 ### Contact section:
 - Contact form - this gives the user the ability to message me for any issues they are having with the site, any suggestions of improvement and to give their opinions on any matter that could be of use. ![contact section web preview](assets/responsive/contactsecweb.png)
-# contact mobile view
+### contact mobile view
 ![contact section web preview](assets/responsive/contactsectmobile.png)
 
 ### Features to be implemented in the future
@@ -217,8 +217,7 @@ These include:
 # 6. Deployment
   [Go to the top](#table-of-contents)
 
-I used GitHub pages to deploy my final project. To do this I had to:
-
+I used GitHub pages to deploy my final project. To do this I had to do the following steps:
 1. Create a repository on GitHub.
 2. Clone the repository on your chosen source code editor (Atom in my case) using the clone link.
 4. Add files to Git (staging area) and use the atom commit to master button.
@@ -234,12 +233,7 @@ I used GitHub pages to deploy my final project. To do this I had to:
   [Go to the top](#table-of-contents)
 
 * Background-Image
- - The background image at the top of the website wasn't loading so it was a heck of a strugle.
-
-* Repository
- - The repository needed to be adjusted in github. 
- - The files were saved in a folder that existed as a main folder to all files and that was interfering with the website to load up the files from the source.
- -  I had to backup the files and delete the existing repository then restructured a new repo by uploading files and saving on  the appropriate folder.
+ - The background image at the top of the website wasn't loading so it was a heck of a strugle and I ahd to check on the url how the file path is written and it turned out the file path was misswritten so I corrected and it loadded as expected.
 
 * CSS
  -CSS wasn't responding on some point so I had to delete the folders containing it and open new ones and update the link path on the index file.
@@ -251,8 +245,8 @@ I used GitHub pages to deploy my final project. To do this I had to:
 
 ### Code
  * The navigation bar code was inspired by small Cafe website
- * A full page layout was inspiredby small Cafe website 
- * image stylewas inspired by the Love Running projects and small Cafe 
+ * A full page layout was inspired by small Cafe website 
+ * image style was inspired by the Love Running projects and small Cafe 
  * The footer idea code came from the Love Running projects
  * The icons in the footer and contact page came from [Font Awesome](https://fontawesome.com/)
 
