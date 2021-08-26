@@ -179,9 +179,11 @@ I used [Am I Responsive](http://ami.responsivedesign.is/) to make sure that all 
 
 I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within my HTML pages.
 The pages showed no errors after every code validation.
-![W3C Markup Validation results]()
+![W3C Markup Validation results](/assets/responsive/Html-checker.png).
 
 I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any error within my CSS stylesheet.
+The stylesheet showed no errors after every code validation.
+![W3C Markup Validation results](/assets/responsive/Html-checker.png).
 
 ## Manual Testing
 
