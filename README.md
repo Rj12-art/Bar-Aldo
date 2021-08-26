@@ -185,6 +185,9 @@ I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for a
 The stylesheet showed no errors after every code validation.
 ![W3C Markup Validation results](/assets/responsive/Html-checker.png).
 
+I also used google chrome's lighthouse to check for page performance and the results are as shown on the screenshot below.
+![Lighthouse performance](/assets/responsive/lighthouse.png).
+
 ## Manual Testing
 
 I have tested my site on firefox and google chrome on multiple devices.
