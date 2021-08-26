@@ -131,7 +131,7 @@ I used fontawesome to import icons I could use on the sections [fontawesome](htt
 ### Events section:
 This element shows what kind of events the bar hosts and their appropriate dates and time.
 ![events section web preview](assets/responsive/eventswebsec.png)
-# Events mobile preview
+### Events mobile preview:
 ![evetnts section mobile preview](assets/responsive/eventmobisec.png)
 ### Contact section:
 - Contact form - this gives the user the ability to message me for any issues they are having with the site, any suggestions of improvement and to give their opinions on any matter that could be of use. ![contact section web preview](assets/responsive/contactsecweb.png)
