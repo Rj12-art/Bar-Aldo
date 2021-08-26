@@ -178,10 +178,8 @@ I used [Am I Responsive](http://ami.responsivedesign.is/) to make sure that all 
 ### W3C Validator Tools
 
 I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within my HTML pages.
-
-I had an error on the index.html page with the iframe attribute of "frameborder". The HTML checker notified me that this attribute is obsolete and to use CSS instead.
-
-I also had an error on the contact_us.html page with a duplicate ID of "form_inline". I rectified this by changing the ID's to a class instead and updated the CSS for this.
+The pages showed no errors after every code validation.
+![W3C Markup Validation results]()
 
 I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any error within my CSS stylesheet.
 
