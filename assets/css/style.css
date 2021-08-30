@@ -86,7 +86,7 @@ body {
 #navbar ul {
   height: 50px;
   width: 100%;
-  background-color: rgb(43, 18, 18);
+  background-color: rgb(35, 17, 17);
   border-radius: 1px;
   
 }
@@ -103,9 +103,9 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-#navbar ul li a {
+#navbar ul li{
   text-decoration: none;
-  color: antiquewhite;
+  color: white;
 
 }
 
