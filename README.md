@@ -254,7 +254,7 @@ There were many elements I changed, re-positioned and added from my original wir
 
 ### Contact page:
  - On the old wireframes the contacts elements weren't well structured and styled,but after restructuring the project the need to add padding and margin on the contact elements was made to have better view of the full site.
- - The rebon contains the text and the arrow icon got from font awesome which redirects the user on the home page to the menu bar while on the service page the arrow was excluded since the navbar is positioned fixed right on top of the page the elements are well navigabe.
+ - The rebon contains the text and the arrow icon got from font awesome which redirects the user on the home page to the menu bar while on the service page the arrow was excluded since the navbar is positioned fixed right on top of the page the elements are well navigabe, but the arrow isn't responsive on moblie preview.
 
 <a name="deployment"></a>
 # 6. Deployment
@@ -306,8 +306,11 @@ I used GitHub pages to deploy my final project. To do this I had to do the follo
  * The service page
  - I had a tough moment trying to systemize the folders and the files to make the project look neat by separating most files and folders to avoid confusion but by doing so my home page wasn't responsive because I created a folder for the service page and linked it to the home page which was responsive but accessing the home page from the service page was not responsive so I had to move the service page out of the folder I created for it and left it out with the main index file then all the links and pages were responsive.
 
-* CSS
- -CSS wasn't responding on some point so I had to delete the folders containing it and open new ones and update the link path on the index file.
+* Contact arrow.
+- The arrow is not responsive on mobile previews.
+
+* h3-headings
+ -Are not centered like the images on the mobile previews purposely to create a different view of elements, centering them seemed kinda boring to the user so they are designed to not center along with the images since the content's headings are already centered.
  
 
 <a name="credits"></a>
