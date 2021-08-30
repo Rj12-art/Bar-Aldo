@@ -103,9 +103,9 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-#navbar ul li{
+#navbar ul li a{
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
 
 }
 
@@ -460,7 +460,7 @@ ul li i {
   }
 
   #navbar ul li a{
-    color: white;
+    color: whitesmoke;
   }
   
   /*styling the about section*/
