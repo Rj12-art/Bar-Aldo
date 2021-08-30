@@ -12,42 +12,27 @@ A live website can be found [here](https://rj12-art.github.io/MLS1/).
 
 # Table of Contents
   * [Bar Aldo. Coffee, Snacks And Ice-cream Shop](#Bar-aldo)
-  ## 1. [UX](#ux)
-    * [Project Research](#project-research)
-        + [Research Analysis](#research-analysis)
-    * [Project Goals](#project-goals)
-    * [User expectations](#user-expectations)
-    * [Wireframes](#wireframes)
-  ## 2. [Design](#design)
-    * [Colour Scheme](#colour-scheme)
-    * [Favicon](#favicon)
-    * [Typography](#typography)
-    * [Imagery](#imagery)
-  ## 3. [Features](#features)
-    * [Existing Features](#existing-features)
-    * [Features to be Implemented in Future](#features-to-be-implemented-in-future)
-  ## 4. [Technologies Used](#technologies-used)
-    * [Languages](#languages)
-    * [Frameworks & Libraries](#frameworks---libraries)
-  ## 5. [Testing](#testing)
-    * [User Stories Testing](#user-stories-testing)
-    * [Manual Testing](#additional-testing)
-        + [Ongoing Bugs](#ongoing-bugs)
-  ## 6. [Deployment](#deployment)
-    * [GitHub Pages](#github-pages)
-    * [Forking the Published GitHub Repository](#forking-the-published-github-repository)
-    * [Cloning the Published GitHub Repository](#cloning-the-published-github-repository)
-  ## 7. [Credits](#credits)
-    * [Imagery](#imagery-1)
-    * [Code](#code)
-    * [Acknowledgements](#acknowledgements)
+ # Table of Contents
+- [1. UX](#ux)
+  * [1.1. Strategy](#strategy)
+    + [Project Goals](#project-goals)
+      - [User Goals:](#user-goals)
+      - [User Expectations:](#user-expectations)
+  * [1.2. Structure](#structure)
+  * [1.3. Skeleton](#skeleton)
+  * [1.4. Surface](#surface)
+- [2. Features](#features)
+- [3. Technologies Used](#technologies-used)
+- [4. Testing](#testing)
+- [5. Development Cycle](#development-cycle)
+- [6. Deployment](#deployment)
+- [7. End Product](#end-product)
+- [8. Known Bugs](#known-bugs)
+- [9. Credits](#credits)
 
 <a name="ux"></a>
 # 1. UX
   [Go to the top](#table-of-contents)
-
-![Am I Responsive image of how the landing page looks across different browser sizes](https://rj12-art.github.io/MLS1/)
-
 ### i project research
 
 As a person who enjoys going out for a drink on friday evenings and over the weekends. I have always tried visiting as many coffee shops as I can, Just to pick one that can be my favourite depending on the services,events and the taste of what they serve.
@@ -80,63 +65,77 @@ The main goal of this website is to show-case the products this coffee shop make
 - The website is responsive on all devices this includes mobile, tablet and desktop.
 - To have the ability to contact the creator of the website.
 
-### iv Wireframes
-* ![image](/assets/wireframes/wirefram-desktop-view.png)
 
-* ![image](/assets/wireframes/phone-screen.png)
-
-  ## 5. Design
-<a name="structure"></a>
-## i Structure
+ <a name="structure"></a>
+## 1.2. Structure
   [Go to the top](#table-of-contents)
 
 It is really important to include responsive design in this project as many users are using different devices (mobile, tablet, laptop/PC). This gives the user the best experience on their device.
 
  - Responsive on all devices sizes
- - Navigation bar is placed beneath the home page image and is clear and easy to use.
- - Footer at the bottom of the page that links to the social media websites.
+ - Navigation bar is placed on the top left of the screen and is clear and easy to use. This is also placed in the same position on every page.
+ - Footer at the bottom of each page that links to the social media websites.
  - All elements will be consistent including font size, font family, colour scheme.
- 
-  ###  Colour scheme
-Since the website is displaying edible products, I had to be critical in color mixture [here](https://www.color-hex.com/color-wheel/).
+
+<a name="skeleton"></a>
+## 1.3. Skeleton
+  [Go to the top](#table-of-contents)
+
+I used [Balsamiq](https://balsamiq.com/) to create my wireframes as this gives the template of the UI. This also shows where all elements will be placed within the screen.
+
+There are 2 versions of each wireframe as one shows the design on a web browser and the other shows a mobile browser format.
+
+### Wire-frames
+Web browser full page preview
+![index.html-web](assets/wireframes/homepageweb.png)
+
+Mobile browser full page preview
+![index.html-web](assets/wireframes/homepagemob.png)
+
+Web browser service full page preview
+![index.html-web](assets/wireframes/servicepagewebre.png)
+
+Mobile browser service full page preview
+![index.html-web](assets/wireframes/servicepagemob.png)
+
+<a name="surface"></a>
+## 1.4. Surface
+  [Go to the top](#table-of-contents)
+
+### Colours
+Please find the colours schemes that I used [here](https://coolors.co/34495e-ffffff-e74c3c-3a3a3a-fafafa).
 
 ### Typography
 I decided to use Roboto as my font of choice with sans serf as my backup font for browsers that might not support Roboto.
 
-## Favicon
-I used fontawesome to import icons I could use on the sections [fontawesome](https://fontawesome.com/)
-
 <a name="features"></a>
-# 3. Features
+# 2. Features
   [Go to the top](#table-of-contents)
 
 
 ### All pages:
-- Navigation bar is placed at the lower part of the home page of the screen, for ease of use and consistency. It has a hover effect to improve the user experience.
+- Navigation bar is placed at the top of the home page of the screen, for ease of use and consistency. It has a hover effect to improve the user experience.
 - Social media links, - all links are placed at the bottom of the page in the footer. All links open in a new tab.
 - Logo/image - a Bar Aldo logo is also placed on the top left ofthe page. This gives the context that the website is about the Bar.
 
 ### Home section:
 - Main image - a large image that shows what the website is about.
 -  Bar-logo - These image adds a visual to UI and improving UX as it's not just text on the page.
-![home page web preview](assets/responsive/homewebsec.png)
 
 ### About-Us section:
 -About-Us, A little introduction about the coffee shop.
-![about section web preview](assets/responsive/aboutwebsec.png)
+-Tells the user what they may expect in terms of the history of the bar and why it's still running.
 
 ### Services section:
 - service - this element shows what kind of services the bar offers.
-![service section web preview](assets/responsive/servicewebsec.png)
+- And which kind of service products the bar offers to the clients.
+
 ### Events section:
-This element shows what kind of events the bar hosts and their appropriate dates and time.
-![events section web preview](assets/responsive/eventswebsec.png)
-### Events mobile preview:
-![evetnts section mobile preview](assets/responsive/eventmobisec.png)
+-This element shows what kind of events the bar hosts and their appropriate dates and time.
+-And which kind of event might be of the user's/client's intyerest.
 ### Contact section:
-- Contact form - this gives the user the ability to message me for any issues they are having with the site, any suggestions of improvement and to give their opinions on any matter that could be of use. ![contact section web preview](assets/responsive/contactsecweb.png)
-### contact mobile view
-![contact section web preview](assets/responsive/contactsectmobile.png)
+- Contact form - this gives the user the ability to message me for any issues they are having with the site.
+-  Any suggestions of improvement and to give their opinions on any matter that could be of use.
 
 ### Features to be implemented in the future
  -Linked pages with alert texts.
@@ -166,7 +165,7 @@ This element shows what kind of events the bar hosts and their appropriate dates
 # 4. Testing
   [Go to the top](#table-of-contents)
 
-## Automated testing
+## Testing with tools
 ### Google Developer Tools
 
 For every element that I added to my HTML, I would add the basic CSS to my stylesheet. I would then use the inspect element to try different styles. Once I've got it to my liking I would copy the CSS from google into my stylesheet. This allows me to keep track of the code I am using.
@@ -200,6 +199,13 @@ These include:
   - ipad
   - laptop 
 
+Please find below my testing process for all pages via mobile and web:
+
+### All pages:
+  - Navigation Bar:
+    - Home - When selecting "home", the browser redirects me to the home page. The text in the navigation bar also stays highlighted with bottom line. It worked as expected.
+    - service - When selecting "service", the browser redirects me to the service page. The text in the navigation bar also stays highlighted in underlined. It worked as exspected.
+
     - Text:
       - I checked that all text is in the correct and consistent size and font. I also checked that there were no typos.
 
@@ -216,6 +222,40 @@ These include:
     - linked - when selecting the linked icon, a new tab opens and redirects to the linked website.
     - Home - when selecting the home icon, it redirects a user to the top of the home page of the website.
 
+### Home page:
+   -Checking the elements responding to the screen size.
+   -I made sure the images adjust according to the decreas and increas in screen size, it worked as expected.
+   
+### Service page:
+   -I made sure the page responds to every device's screen display by decreasing and increasing the web view.
+   -I also made sure the images on the sections load and all worked as expected.
+   
+   
+<a name="development-cycle"></a>
+# 5. Development Cycle
+  [Go to the top](#table-of-contents)
+
+There were many elements I changed, re-positioned and added from my original wireframes as they were more visually appealing.
+
+### All pages:
+ -The service page was added as an external html file to add more room to the code and the page.
+### Home page:
+  - The original wireframe was tottally changed since the home page contained only three sections. 
+  - The navbar is at the bottom of the home page image and with all the elements to navigate through.
+### About section:
+  - I didnt change a thing with the story and the image found on the about section but I did a bit of styling to have them positioned well on all screen previews.
+### Service page:
+  - The original wireframe showed this page as a section on the home page but with the new wireframes this was turned into a separate page which contained other section for the web site. The navbar in this page is situated on the top of the page and the logo image was not included since it wasn't offering a better view structure.
+### Event section:
+  - The event section on the mobile preview the images needed to be centered and the margin and padding was added to make that change.
+
+### Review section:
+  - This section was added after the adjustment of contents on the site and more contents were required to be added, this section is found on the service page when the user clicks a service element on the service's page navbar.
+
+### Contact page:
+ - On the old wireframes the contacts elements weren't well structured and styled,but after restructuring the project the need to add padding and margin on the contact elements was made to have better view of the full site.
+ - The rebon contains the text and the arrow icon got from font awesome which redirects the user on the home page to the menu bar while on the service page the arrow was excluded since the navbar is positioned fixed right on top of the page the elements are well navigabe.
+
 <a name="deployment"></a>
 # 6. Deployment
   [Go to the top](#table-of-contents)
@@ -230,9 +270,34 @@ I used GitHub pages to deploy my final project. To do this I had to do the follo
 9. Select pages on the left menu bar.
 10. Click on the master branch.
 11. This will now generate a link with your website live.
+   
+ <a name="end-product"></a>
+# 7. End Product
+  [Go to the top](#table-of-contents)
+
+  Please fine below a screenshot of each page:
+
+  Home section UI:
+  ![home page preview](assets/responsive/homewebsec.png)
+  
+   About section UI:
+  ![about page preview](assets/responsive/aboutwebsec.png)
+
+  Service section UI:
+  ![service page preview](assets/responsive/servicewebsec.png)
+
+  Events section UI:
+  ![events page preview](assets/responsive/eventswebsec.png)
+
+  Review section UI:
+  ![review page preview](assets/responsive/reviewsweb.png)
+
+  Contact section UI:
+  ![contact page preview](assets/responsive/contactsecweb.png)
+
 
 <a name="known-bugs"></a>
-## . Known Bugs
+# 8 . Known Bugs
   [Go to the top](#table-of-contents)
 
 * Background-Image
