@@ -93,7 +93,7 @@ Mobile browser full page preview
 ![index.html-web](assets/wireframes/homepagemob.png)
 
 Web browser service full page preview
-![index.html-web](assets/wireframes/servicepagewebre.png)
+![index.html-web](assets/wireframes/websecpage.png)
 
 Mobile browser service full page preview
 ![index.html-web](assets/wireframes/servicepagemob.png)
