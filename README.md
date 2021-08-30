@@ -236,7 +236,10 @@ I used GitHub pages to deploy my final project. To do this I had to do the follo
   [Go to the top](#table-of-contents)
 
 * Background-Image
- - The background image at the top of the website wasn't loading so it was a heck of a strugle and I ahd to check on the url how the file path is written and it turned out the file path was misswritten so I corrected and it loadded as expected.
+ - The background image at the top of the website wasn't loading so it was a heck of a strugle and I had to check on the url how the file path is written and it turned out the file path was misswritten so I corrected and it loadded as expected.
+
+ * The service page
+ - I had a tough moment trying to systemize the folders and the files to make the project look neat by separating most files and folders to avoid confusion but by doing so my home page wasn't responsive because I created a folder for the service page and linked it to the home page which was responsive but accessing the home page from the service page was not responsive so I had to move the service page out of the folder I created for it and left it out with the main index file then all the links and pages were responsive.
 
 * CSS
  -CSS wasn't responding on some point so I had to delete the folders containing it and open new ones and update the link path on the index file.
@@ -244,6 +247,7 @@ I used GitHub pages to deploy my final project. To do this I had to do the follo
 
 <a name="credits"></a>
 # 9. Credits
+ I would like to tahnk my mentor Marcel for the help and support he has been offering me from the start to the end of the project.
   [Go to the top](#table-of-contents)
 
 ### Code
